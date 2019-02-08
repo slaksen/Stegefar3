@@ -21,21 +21,19 @@
 	<div id="statusDiv">Status: Disconnected</div>
 	<div id="bleId">DeviceId:</div>
 	<div id="debugDiv"></div>
-	<br><br>
-	<button id="ledOnButton" onclick = "data('1')">Set led ON</button>
-	<br><br>
-	<button id="ledOffButton" onclick = "data('0')">Set Led Off</button>
 	<br><br><br>
-	<input type="text" id="messageInput" value="Hello"/>
+	<input type="text" id="messageInput" value="Get Temperature"/>
 	<br>
 	<button id="sendButton" onclick = "sendData()">Send</button>
 	<br>
-		
+	<br>
+	<p> Her er din temperatur </p>
+	<input type ="text" id="receiveDiv" value=""/>	
 	<br>
 	<div id="sendDiv"></div>
 	<br><br>
 	<button id="disconnectButton"onClick="disconnect()">Disconnect</button>
-	<div id="receiveDiv"></div>
+	<!-- <div id="receiveDiv"></div> -->
 	
 	
 	
