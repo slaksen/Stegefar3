@@ -89,6 +89,10 @@ function onConnError(){
 
  function onData(data){ // data received from Arduino
 	document.getElementById("receiveDiv").innerHTML =  "Received: " + bytesToString(data) + "<br/>";
+	
+	
+	
+	
 }
 
 function data(txt){
